@@ -1,0 +1,17 @@
+.logo {
+  padding-top: 28px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.logo__icon {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+  color: var(--black);
+  letter-spacing: 0.03em;
+}
+.logo__text {
+  color: var(--blue);
+}

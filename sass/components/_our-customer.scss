@@ -1,0 +1,42 @@
+.our-customer__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.our-customers__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 94px;
+}
+
+.our-customers__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.our-customers__icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  margin: auto;
+  fill: #afb1b8;
+  cursor: pointer;
+
+  &:hover {
+    fill: var(--blue);
+    border-color: var(--blue);
+    transition: var(--tranistion);
+  }
+}

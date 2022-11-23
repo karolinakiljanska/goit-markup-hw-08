@@ -1,0 +1,40 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+}
+.card__item {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-soft);
+  margin: 0 24px 4px 24px;
+  padding-top: 24px;
+}
+.card__product {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+  margin: 6px 0 20px 24px;
+}
+
+.card__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  background: var(--card-background);
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--white);
+  padding: 49px 45px 49px 24px;
+  transform: translateY(100%);
+  transition: var(--tranistion);
+  margin-top: auto;
+}

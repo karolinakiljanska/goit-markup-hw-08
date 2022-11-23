@@ -1,0 +1,8 @@
+.overlay {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+}
+.overlay:hover .description-card-container {
+  transform: translateY(0);
+}
