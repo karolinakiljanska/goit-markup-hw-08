@@ -25,6 +25,46 @@
   <body>
     <header class="header">
       <section>
+        <div class="mobile-menu" data-menu>
+          <button class="mobile-menu__btn" type="button" data-menu-close>
+            <svg class="mobile-menu__icon" width="40px" height="40px">
+              <use href="./images/icons.svg#icon-close-menu"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__nav">
+            <li class="moblie-menu__nav-item">
+              <a href="./index.htmls" class="mobile-menu__nav-link">Agencja</a>
+            </li>
+            <li class="moblie-menu__nav-item">
+              <a href="./portfolio.html" class="mobile-menu__nav-link">Portfolio</a>
+            </li>
+            <li class="moblie-menu__nav-item">
+              <a href="Kontakt" class="mobile-menu__nav-link">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__contact">
+            <li>
+              <a href="tel:+48111111111" class="mobile-menu__contact-tel">+48111111111</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="mobile-menu__contact-mail">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__social-list">
+            <li class="mobile-menu__social-item">
+              <a class="social-menu__link" href="#">Instagram</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="social-menu__link" href="#">Twitter</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="social-menu__link" href="#">Facebook</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="social-menu__link" href="#">Linkedin</a>
+            </li>
+          </ul>
+        </div>
         <div class="container header__content">
           <div class="logo">
             <a href="/Logo" class="logo__icon">
@@ -39,6 +79,11 @@
               </li>
               <li><a href="Kontakt" class="navigation__link">Kontakt</a></li>
             </ul>
+            <button class="navigation__btn" type="button" data-menu-open>
+              <svg class="navigation__icon" width="40px" height="40px">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
           </nav>
           <ul class="contact">
             <li>
