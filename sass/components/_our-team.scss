@@ -1,6 +1,13 @@
 .our-team {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--notwhite);
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
+
 .our-team__header {
   font-style: normal;
   font-weight: 700;

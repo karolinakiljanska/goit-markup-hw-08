@@ -18,8 +18,55 @@
   flex-wrap: wrap;
   list-style: none;
 }
-.paragraph-list__icon 
-  
+.paragraph-list__list-item {
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+.paragraph-list__icon {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  background-color: #f5f4fa;
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+.paragraph-list__heading {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+.paragraph-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--grey);
+}
 
 /* .paragraph-list {
   list-style: none;
