@@ -1,61 +1,85 @@
 .footer {
   background: var(--darkgrey);
-  text-align: center;
-  padding: 60px 0px;
-}
-.footer__content {
-  display: block;
-  margin: 0;
-  padding: 0px;
-  list-style: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-  @media (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px 165px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 51px;
   }
-  @media (min-width: 1200px) {
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
     display: flex;
-    justify-content: center;
-    text-align: left;
+    flex-direction: row;
     gap: 70px;
   }
 }
+.footer__adress {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
 .footer__logo {
   color: var(--white);
+  font-size: 26px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.193;
-  letter-spacing: 0.03em;
 }
 .footer__logo-text {
   color: var(--blue);
 }
+
 .footer__social {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
 
-  margin-top: 60px;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    margin-top: 0px;
+  @media screen and (min-width: 1200px) {
+    width: unset;
+    display: flex;
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
   }
 }
 .footer__social-text {
-  padding: 20px 0px 10px 0px;
+  padding: 40px 0px 10px 0px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
   color: var(--white);
+  align-items: center;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     padding-bottom: 10px;
   }
-  @media (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     text-align: left;
   }
 }

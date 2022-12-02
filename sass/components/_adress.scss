@@ -1,15 +1,15 @@
 .adress {
-  margin-top: 20px;
+  text-align: center;
   list-style: none;
-}
-.adress {
-  text-align: left;
-  list-style: none;
-  padding-inline-start: 0px;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  padding-bottom: 92px;
+  padding: 0;
   margin-right: 0;
+  max-width: 251px;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .adress__text {
@@ -37,9 +37,4 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--link-color);
-}
-.adress-list {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 60px;
 }
