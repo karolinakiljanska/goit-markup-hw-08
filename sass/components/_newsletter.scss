@@ -57,6 +57,15 @@
     width: 358px;
     margin-right: 12px;
     padding: 20px;
+    justify-content: left;
+  }
+}
+.newsletter__area {
+  flex-direction: row;
+  align-items: baseline;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 .newsletter__button {
@@ -82,7 +91,6 @@
   }
 
   @media (min-width: 1200px) {
-    margin-top: 0px;
   }
 }
 .newsletter__icon {

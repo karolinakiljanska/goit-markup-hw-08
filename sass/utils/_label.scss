@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-bottom: 4px;
   margin-left: 40px;
+  max-width: 370px;
 }
 label:focus-within > svg {
   fill: var(--blue);

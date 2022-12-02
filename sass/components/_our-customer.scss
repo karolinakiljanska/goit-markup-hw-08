@@ -21,15 +21,23 @@
 }
 .our-customers__list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   list-style: none;
+  @media screen and (max-width: 786px) {
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 0;
+    margin-bottom: 94px;
+    max-width: 1200px;
+  }
 }
 
 .our-customers__icon {
   height: 90px;
   width: 170px;
+
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -50,9 +58,9 @@
   }
 
   @media screen and (min-width: 1200px) {
-    margin: auto;
-    margin: 15px;
     justify-content: center;
+    align-items: center;
+    margin-left: 15px;
   }
 }
 

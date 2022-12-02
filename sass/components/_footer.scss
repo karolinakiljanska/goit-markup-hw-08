@@ -2,20 +2,18 @@
   background: var(--darkgrey);
   padding-top: 60px;
   padding-bottom: 60px;
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 60px;
-    padding-bottom: 51px;
-  }
 }
 
 .footer__content {
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
 
+  @media screen and (max-width: 786px) {
+    flex-wrap: wrap;
+  }
+
   @media screen and (min-width: 1200px) {
-    display: flex;
     flex-direction: row;
     gap: 70px;
   }
@@ -34,6 +32,7 @@
     align-items: center;
   }
   @media screen and (min-width: 1200px) {
+    text-align: left;
   }
 }
 
@@ -61,7 +60,7 @@
     width: unset;
     display: flex;
     padding: 0px;
-    justify-content: flex-start;
+
     align-items: flex-start;
     padding: 0px;
   }
