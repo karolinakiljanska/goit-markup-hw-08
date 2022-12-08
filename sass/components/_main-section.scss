@@ -11,7 +11,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../img/tlo-mobile.jpg");
+    url("./img/tlo/tlo-mobile-1x.jpg");
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -21,7 +21,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tło-mobile2x.jpg");
+      url("./img/tlo/tlo-mobile-2x.jpg");
   }
 
   @media screen and (min-width: 768px) {
@@ -30,7 +30,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tło-tablet.jpg");
+      url("./img/tlo/tlo-tablet-1x.jpg");
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -41,7 +41,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tło-tablet2x.jpg");
+      url("./img/tlo/tlo-tablet-2x.jpg");
   }
 
   @media screen and (min-width: 1200px) {
@@ -50,7 +50,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tło.jpg");
+      url("./img/tlo/tlo-desktop-1x.jpg");
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -61,7 +61,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tło2x.jpg");
+      url("./img/tlo/tlo-desktop-2x.jpg");
   }
 
   @media screen and (min-width: 1200px) {
