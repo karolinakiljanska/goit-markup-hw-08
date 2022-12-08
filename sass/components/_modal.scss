@@ -72,12 +72,14 @@
   letter-spacing: 0.03em;
   color: var(--black);
   padding-top: 40px;
+  margin-left: 40px;
   @media screen and (min-width: 1200px) {
     padding-left: 40px;
     flex-direction: nowrap;
   }
 }
 .modal__text {
+  max-width: 370px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -87,10 +89,11 @@
   margin-top: 10px;
   position: relative;
   margin-bottom: 4px;
+  width: 100%;
 }
 
 .modal__field-text {
-  width: 448px;
+  width: 370px;
   resize: none;
   height: 120px;
   padding: 12px 16px;
@@ -144,8 +147,8 @@
   align-items: center;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 125px;
+
   padding: 10px 76px 10px 76ox;
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);

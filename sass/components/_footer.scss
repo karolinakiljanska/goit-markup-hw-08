@@ -2,6 +2,7 @@
   background: var(--darkgrey);
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 100%;
 }
 
 .footer__content {
@@ -60,7 +61,6 @@
     width: unset;
     display: flex;
     padding: 0px;
-
     align-items: flex-start;
     padding: 0px;
   }

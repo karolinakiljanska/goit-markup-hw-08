@@ -1,12 +1,17 @@
 .agreement {
   display: flex;
-  width: 420px;
-  height: 24px;
-  margin-inline: 54px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 346px;
+  height: 14px;
   margin-top: 20px;
   outline: none;
   border: none;
   margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    width: 420px;
+    height: 24px;
+  }
 }
 .agreement__label {
   position: relative;
