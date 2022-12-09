@@ -25,7 +25,8 @@
   justify-content: center;
   gap: 30px;
   list-style: none;
-  @media screen and (max-width: 786px) {
+  max-width: 100%;
+  @media screen and (max-width: 1200px) {
     flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px) {
