@@ -1,24 +1,25 @@
 .agreement {
-  display: flex;
-  width: 370px;
-  height: 24px;
-  position: relative;
-  margin-top: 20px;
+  padding-left: 0px;
+  margin-top: 25px;
+  margin-bottom: 30px;
   outline: none;
   border: none;
 
   @media screen and (min-width: 1200px) {
-    width: 420px;
-    height: 24px;
+    padding-left: 14px;
   }
 }
 .agreement__label {
-  position: relative;
+  padding-left: 0px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+  /*  position: relative;
   text-align: center;
   text-size-adjust: 100%;
   margin-left: 40px;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
 }
 .agreement__label .agreement__input {
   width: 0;
@@ -33,6 +34,9 @@
   border: 1px solid var(--grey);
   border-radius: 2px;
   margin-left: 40px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 20px;
+  }
 }
 .agreement__icon svg {
   margin-bottom: 3px;
@@ -53,24 +57,46 @@
   line-height: 14px;
   letter-spacing: 0.03em;
   color: var(--grey);
-  display: flex;
+  margin-left: 30px;
+  margin-right: -64px;
+  margin-top: -20px;
+  display: block;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: -20px;
+    margin-left: 36px;
+    display: block;
+  }
+  /*  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-top: -16px;
   margin-left: 64px;
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.7;
-    margin-top: -20px;
-  }
+    margin-top: -20px; */
 }
+
 .agreement__text-blue {
   color: var(--blue);
   text-decoration: underline;
-  margin-left: 2px;
-  margin-right: 2px;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  display: flex;
+  @media screen and (max-width: 479px) {
+    position: absolute;
+    top: 18px;
+    left: 21px;
+  }
 }

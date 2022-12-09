@@ -14,8 +14,10 @@
 }
 .modal {
   position: relative;
-  width: 450px;
-  height: 609px;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 80%;
   position: absolute;
   margin: auto;
   background: #ffffff;
@@ -30,7 +32,7 @@
 
   @media screen and (min-width: 1200px) {
     max-width: 528px;
-    height: 581px;
+    height: 609px;
   }
 }
 
@@ -49,6 +51,7 @@
   color: var(--black);
   margin-top: 40px;
   margin-bottom: 30px;
+  margin-left: 30px;
   @media screen and (min-width: 1200px) {
     padding-left: 40px;
     flex-direction: nowrap;
@@ -64,7 +67,7 @@
   font-style: normal;
   margin-top: 10px;
   position: relative;
-  margin-bottom: 4px;
+  margin-left: 40px;
   width: 100%;
 }
 
@@ -73,8 +76,9 @@
   resize: none;
   height: 120px;
   padding: 12px 16px;
-  margin-bottom: 0px;
 
+  margin-left: 40px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -118,13 +122,12 @@
   background-color: var(--blue);
   color: var(--white);
   border: none;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-left: 125px;
-
+  margin-left: 100px;
   padding: 10px 76px 10px 76ox;
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
@@ -137,9 +140,11 @@
   padding-left: 76px;
   padding-right: 76px;
   margin-bottom: 40px;
-
   &:hover {
     opacity: 0.8;
     transition: var(--tranistion);
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
   }
 }
