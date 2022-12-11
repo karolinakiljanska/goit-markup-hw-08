@@ -72,24 +72,3 @@
     left: 0px;
   }
 }
-.navigation__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  color: #212121;
-  border: none;
-  margin-left: auto;
-  cursor: pointer;
-
-  &:hover,
-  &:focus {
-    fill: var(--blue);
-  }
-
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
