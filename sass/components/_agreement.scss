@@ -4,6 +4,7 @@
   margin-bottom: 30px;
   outline: none;
   border: none;
+  max-width: 100%;
 
   @media screen and (min-width: 1200px) {
     padding-left: 14px;
@@ -14,6 +15,8 @@
   margin-top: 25px;
   margin-bottom: 30px;
   text-align: center;
+  justify-self: center;
+
   /*  position: relative;
   text-align: center;
   text-size-adjust: 100%;
@@ -34,6 +37,10 @@
   border: 1px solid var(--grey);
   border-radius: 2px;
   margin-left: 40px;
+  margin-right: auto;
+  @media screen and (max-width: 480px) {
+    padding-right: 10px;
+  }
   @media screen and (min-width: 1200px) {
     margin-left: 20px;
   }
@@ -41,6 +48,7 @@
 .agreement__icon svg {
   margin-bottom: 3px;
   margin-left: 2px;
+  margin-right: auto;
   color: var(--white);
 }
 .agreement__input:checked + .agreement__icon svg {
@@ -58,9 +66,11 @@
   letter-spacing: 0.03em;
   color: var(--grey);
   margin-left: 30px;
-  margin-right: -64px;
+  margin-right: auto;
   margin-top: -20px;
   display: block;
+  max-width: 100%;
+  justify-self: center;
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
@@ -94,9 +104,5 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  @media screen and (max-width: 479px) {
-    position: absolute;
-    top: 18px;
-    left: 21px;
-  }
+  max-width: 100%;
 }

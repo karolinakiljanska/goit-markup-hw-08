@@ -27,7 +27,9 @@
   gap: 30px;
   justify-content: center;
   list-style: none;
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
   }
@@ -39,6 +41,9 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
 }
 
 .our-team__name {
@@ -72,6 +77,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
+  margin-left: auto;
+  margin-right: auto;
   &:hover,
   &:focus {
     fill: var(--white);

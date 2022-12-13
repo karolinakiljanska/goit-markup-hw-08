@@ -20,7 +20,7 @@
 .mobile-menu {
   display: flex;
   flex-direction: column;
-  padding: 48px 40px;
+
   width: 100%;
   height: 100%;
   position: relative;
@@ -97,14 +97,21 @@
   color: #757575;
   text-decoration: none;
   margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mobile-menu__social-list {
+  max-width: 100%;
+  padding-left: 40px;
   list-style: none;
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
 .mobile-menu__social-item {
+  max-width: 100%;
   position: relative;
 
   font-weight: 500;
