@@ -26,6 +26,9 @@
   gap: 30px;
   list-style: none;
   max-width: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (max-width: 1200px) {
     flex-wrap: wrap;
   }
@@ -40,7 +43,8 @@
 .our-customers__icon {
   height: 90px;
   width: 170px;
-
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
